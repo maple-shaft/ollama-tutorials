@@ -21,7 +21,7 @@ df = load_or_create_dataframe('image_descriptions.csv')
 def get_png_files(folder_path):
     return glob.glob(f"{folder_path}/*.png")
 
-# get the list of image files in the folder yopu want to process
+# get the list of image files in the folder you want to process
 image_files = get_png_files("./images") 
 image_files.sort()
 
